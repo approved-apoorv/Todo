@@ -60,9 +60,10 @@
             itemJsonArray.push([tit, desc]);
             localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
         }
-        update();
         document.getElementById("title").value = "";
         document.getElementById("description").value = "";
+        update();
+        
     }
 
     function update(){
